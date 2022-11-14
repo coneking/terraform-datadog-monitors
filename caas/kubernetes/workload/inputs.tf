@@ -235,3 +235,8 @@ variable "replica_group_by" {
   description = "Select group by element on monitors"
 }
 
+variable "job_group_by" {
+  default     = "kube_job"
+  description = "Group by element for job monitor"
+}
+
